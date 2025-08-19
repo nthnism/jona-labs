@@ -1,6 +1,9 @@
 import { Text, View } from "react-native";
+import { useTranslation } from "@/src/hooks/useTranslation";
 
 export default function Index() {
+  const translate = useTranslation();
+
   return (
     <View
       style={{
@@ -9,7 +12,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>{translate("global.welcome")}</Text>
     </View>
   );
 }
