@@ -1,7 +1,9 @@
 import { Text, View } from 'react-native';
 import { useTranslation } from '@/src/hooks/useTranslation';
+import { useUnistyles } from 'react-native-unistyles';
 
 export default function Index() {
+  const { theme } = useUnistyles();
   const translate = useTranslation();
 
   return (
@@ -10,8 +12,14 @@ export default function Index() {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: theme.colors.background,
       }}>
-      <Text>{translate('global.welcome')}</Text>
+      <Text
+        style={{
+          color: theme.colors.primary,
+        }}>
+        {translate('global.welcome')}
+      </Text>
     </View>
   );
 }

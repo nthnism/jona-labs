@@ -15,6 +15,7 @@ self-contained functionality.
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## How to run this
+`NOTE:` Because of added native code Expo Go won't work. Please specify which platform you would like to launch.
 
 1. Install dependencies
 
@@ -25,5 +26,5 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-   yarn start
+   yarn ios || yarn android || yarn web
    ```

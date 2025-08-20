@@ -1,6 +1,6 @@
 import { useTranslation as useTranslationInternal } from 'react-i18next';
 
-import * as en from '@/assets/translations/en.json';
+import * as en from '@/src/translations/en.json';
 
 type validKeys = keyof typeof en;
 
