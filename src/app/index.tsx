@@ -1,5 +1,5 @@
-import { Text, View } from "react-native";
-import { useTranslation } from "@/src/hooks/useTranslation";
+import { Text, View } from 'react-native';
+import { useTranslation } from '@/src/hooks/useTranslation';
 
 export default function Index() {
   const translate = useTranslation();
@@ -8,11 +8,10 @@ export default function Index() {
     <View
       style={{
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>{translate("global.welcome")}</Text>
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}>
+      <Text>{translate('global.welcome')}</Text>
     </View>
   );
 }
