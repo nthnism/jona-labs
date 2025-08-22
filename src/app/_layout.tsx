@@ -1,36 +1,16 @@
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { Drawer } from 'expo-router/drawer';
 import '@/src/translations/i18n';
-import { useUnistyles } from 'react-native-unistyles';
-import { useTranslation } from '../hooks/useTranslation';
+import { Stack } from 'expo-router';
 
 export default function RootLayout() {
-  const { theme } = useUnistyles();
-  const translate = useTranslation();
-
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
-      <Drawer
+      <Stack
         screenOptions={{
-          headerStyle: {
-            backgroundColor: theme.colors.background,
-          },
-          headerTintColor: theme.colors.onBackground,
-          drawerActiveBackgroundColor: theme.colors.primary,
-          drawerActiveTintColor: theme.colors.onPrimary,
-          drawerInactiveTintColor: theme.colors.onBackground,
-          drawerContentStyle: {
-            backgroundColor: theme.colors.background,
-          },
+          headerShown: false,
         }}>
-        <Drawer.Screen
-          name="index"
-          options={{
-            drawerLabel: translate('tabs.home.drawerLabel'),
-            title: translate('tabs.home.title'),
-          }}
-        />
-      </Drawer>
+        <Stack.Screen name="(drawer)" />
+      </Stack>
     </GestureHandlerRootView>
   );
 }

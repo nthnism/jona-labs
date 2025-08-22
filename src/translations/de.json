@@ -1,5 +1,9 @@
 {
   "global.welcome": "Willkommen bei Jona Labs!",
   "global.ok": "Ok",
-  "global.cancel": "Abbrechen"
+  "global.cancel": "Abbrechen",
+  "global.continue": "Weiter",
+  "global.goBack": "Zurück",
+  "tabs.home.drawerLabel": "Startseite",
+  "tabs.home.title": "Startseite"
 }

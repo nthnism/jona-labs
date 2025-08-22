@@ -16,7 +16,7 @@ export default function Index() {
       }}>
       <Text
         style={{
-          color: theme.colors.primary,
+          color: theme.colors.onBackground,
         }}>
         {translate('global.welcome')}
       </Text>

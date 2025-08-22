@@ -2,6 +2,8 @@
   "global.welcome": "Welcome to Jona Labs!",
   "global.ok": "Ok",
   "global.cancel": "Cancel",
+  "global.continue": "Continue",
+  "global.goBack": "Go back",
   "tabs.home.drawerLabel": "Home",
   "tabs.home.title": "Home"
 }
