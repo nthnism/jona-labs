@@ -4,6 +4,7 @@
   "global.cancel": "Abbrechen",
   "global.continue": "Weiter",
   "global.goBack": "Zurück",
+  "global.notFound": "Ups! Ressource nicht gefunden...",
   "tabs.home.drawerLabel": "Startseite",
   "tabs.home.title": "Startseite"
 }

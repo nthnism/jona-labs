@@ -4,6 +4,7 @@
   "global.cancel": "Cancel",
   "global.continue": "Continue",
   "global.goBack": "Go back",
+  "global.notFound": "Oops! Resource not found...",
   "tabs.home.drawerLabel": "Home",
   "tabs.home.title": "Home"
 }
