@@ -1,9 +1,16 @@
 {
-  "global.welcome": "Willkommen bei Jona Labs!",
-  "global.ok": "Ok",
-  "global.cancel": "Abbrechen",
-  "global.continue": "Weiter",
-  "global.goBack": "Zurück",
-  "tabs.home.drawerLabel": "Startseite",
-  "tabs.home.title": "Startseite"
+  "global": {
+    "welcome": "Willkommen bei Jona Labs!",
+    "ok": "Ok",
+    "cancel": "Abbrechen",
+    "continue": "Weiter",
+    "goBack": "Zurück",
+    "notFound": "Ups! Ressource nicht gefunden..."
+  },
+  "tabs": {
+    "home": {
+      "drawerLabel": "Startseite",
+      "title": "Startseite"
+    }
+  }
 }

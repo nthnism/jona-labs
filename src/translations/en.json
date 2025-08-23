@@ -1,9 +1,16 @@
 {
-  "global.welcome": "Welcome to Jona Labs!",
-  "global.ok": "Ok",
-  "global.cancel": "Cancel",
-  "global.continue": "Continue",
-  "global.goBack": "Go back",
-  "tabs.home.drawerLabel": "Home",
-  "tabs.home.title": "Home"
+  "global": {
+    "welcome": "Welcome to Jona Labs!",
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "goBack": "Go back",
+    "notFound": "Oops! Resource not found..."
+  },
+  "tabs": {
+    "home": {
+      "drawerLabel": "Home",
+      "title": "Home"
+    }
+  }
 }

@@ -3,9 +3,16 @@ import * as en from '@/src/translations/en.json';
 
 const { t } = i18next;
 
-type ValidKeys = keyof typeof en;
-
 // DISCLAIMER: The following type definitions have been generated with the help of ChatGPT.
+
+// --- helper type: recursively flatten JSON object keys into "dot" notation ---
+type DotPrefix<T extends string, U extends string> = U extends '' ? T : `${T}.${U}`;
+
+type NestedKeys<T> = {
+  [K in keyof T]: T[K] extends Record<string, any> ? DotPrefix<K & string, NestedKeys<T[K]>> : K & string;
+}[keyof T];
+
+type ValidKeys = NestedKeys<typeof en>;
 
 // --- overloads with ValidKeys ---
 export function translate<K extends ValidKeys>(key: K): string;
