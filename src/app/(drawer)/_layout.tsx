@@ -1,7 +1,9 @@
 import { Drawer } from 'expo-router/drawer';
-import '@/src/translations/i18n';
 import { useUnistyles } from 'react-native-unistyles';
+
 import { translate } from '@/src/functions/translate';
+
+import '@/src/translations/i18n';
 
 export default function HomeLayout() {
   const { theme } = useUnistyles();

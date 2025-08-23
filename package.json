@@ -7,8 +7,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "lint": "expo lint",
-    "prettier": "prettier ./"
+    "lint": "expo lint --fix"
   },
   "eslintConfig": {
     "extends": "universe/native"
@@ -60,7 +59,9 @@
     "eslint-config-expo": "~9.2.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-universe": "^15.0.3",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-unused-imports": "^4.2.0",
     "prettier": "^3.6.2",
     "typescript": "~5.8.3"
   },

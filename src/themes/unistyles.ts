@@ -1,5 +1,5 @@
+import { MD3DarkTheme, MD3LightTheme } from 'react-native-paper';
 import { StyleSheet } from 'react-native-unistyles';
-import { MD3LightTheme, MD3DarkTheme } from 'react-native-paper';
 
 const appThemes = {
   light: MD3LightTheme,

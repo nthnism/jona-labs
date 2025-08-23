@@ -1,5 +1,5 @@
-import i18next from '@/src/translations/i18n';
 import * as en from '@/src/translations/en.json';
+import i18next from '@/src/translations/i18n';
 
 const { t } = i18next;
 

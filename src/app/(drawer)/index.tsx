@@ -1,5 +1,7 @@
 import { Text, View } from 'react-native';
+
 import { useUnistyles } from 'react-native-unistyles';
+
 import { translate } from '@/src/functions/translate';
 
 export default function Index() {

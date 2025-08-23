@@ -1,10 +1,11 @@
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { useEffect } from 'react';
+
+import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
-import { useFonts } from 'expo-font';
-import { useEffect } from 'react';
-import { useUnistyles } from 'react-native-unistyles';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { PaperProvider } from 'react-native-paper';
+import { useUnistyles } from 'react-native-unistyles';
 
 import '@/src/translations/i18n';
 

@@ -1,6 +1,8 @@
 import { Text, View } from 'react-native';
+
 import { Link } from 'expo-router';
 import { useUnistyles } from 'react-native-unistyles';
+
 import { translate } from '@/src/functions/translate';
 
 export default function NotFoundScreen() {
@@ -11,7 +13,6 @@ export default function NotFoundScreen() {
       <Text
         style={{
           color: theme.colors.onBackground,
-          marginBottom: theme.gap(1),
         }}>
         {translate('global.notFound')}
       </Text>
