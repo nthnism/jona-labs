@@ -3,6 +3,9 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useFonts } from 'expo-font';
 import { useEffect } from 'react';
+import { useUnistyles } from 'react-native-unistyles';
+import { PaperProvider } from 'react-native-paper';
+
 import '@/src/translations/i18n';
 
 SplashScreen.setOptions({
@@ -17,6 +20,8 @@ export default function RootLayout() {
     SpaceMono: require('@/assets/fonts/SpaceMono-Regular.ttf'),
   });
 
+  const { theme } = useUnistyles();
+
   useEffect(() => {
     if (hasLoadedFonts) {
       SplashScreen.hide();
@@ -29,12 +34,14 @@ export default function RootLayout() {
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
-      <Stack
-        screenOptions={{
-          headerShown: false,
-        }}>
-        <Stack.Screen name="(drawer)" />
-      </Stack>
+      <PaperProvider theme={theme}>
+        <Stack
+          screenOptions={{
+            headerShown: false,
+          }}>
+          <Stack.Screen name="(drawer)" />
+        </Stack>
+      </PaperProvider>
     </GestureHandlerRootView>
   );
 }

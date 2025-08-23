@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		32E086BB9522635FB8E2FCC5 /* libPods-JonaLabs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDC90D45D5FD3678F2A6F37 /* libPods-JonaLabs.a */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		AB546230BFFD6E2B63CD8192 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 08C766CEC484504D6A0602E0 /* PrivacyInfo.xcprivacy */; };
+		3E7FE2447E94A198C50A0976 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E693B56CD629B4F3FAB6 /* PrivacyInfo.xcprivacy */; };
+		4DC2DBBC14E374B9AE8B292E /* libPods-JonaLabs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E26F476BAC1B66D7EFACAF40 /* libPods-JonaLabs.a */; };
+		8FDF3BC74C44DC764628AFE0 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243A000C3A50C78325A04D4 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		EA09A9BC7B39BF9623C3E191 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004B21BB50B0724CC3F99B59 /* ExpoModulesProvider.swift */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		004B21BB50B0724CC3F99B59 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-JonaLabs/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		08C766CEC484504D6A0602E0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = JonaLabs/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		04D9E693B56CD629B4F3FAB6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = JonaLabs/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* JonaLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JonaLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JonaLabs/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = JonaLabs/Info.plist; sourceTree = "<group>"; };
-		1488015D35BBD6D87C3F6EC5 /* Pods-JonaLabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JonaLabs.debug.xcconfig"; path = "Target Support Files/Pods-JonaLabs/Pods-JonaLabs.debug.xcconfig"; sourceTree = "<group>"; };
-		4EDC90D45D5FD3678F2A6F37 /* libPods-JonaLabs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JonaLabs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		711E5A64DF9BC2D6DCDAC5EE /* Pods-JonaLabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JonaLabs.release.xcconfig"; path = "Target Support Files/Pods-JonaLabs/Pods-JonaLabs.release.xcconfig"; sourceTree = "<group>"; };
+		278113584A41AEF1664AB420 /* Pods-JonaLabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JonaLabs.debug.xcconfig"; path = "Target Support Files/Pods-JonaLabs/Pods-JonaLabs.debug.xcconfig"; sourceTree = "<group>"; };
+		3243A000C3A50C78325A04D4 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-JonaLabs/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		6626CAB9C881B9B12447F37D /* Pods-JonaLabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JonaLabs.release.xcconfig"; path = "Target Support Files/Pods-JonaLabs/Pods-JonaLabs.release.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = JonaLabs/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		E26F476BAC1B66D7EFACAF40 /* libPods-JonaLabs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JonaLabs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = JonaLabs/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* JonaLabs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JonaLabs-Bridging-Header.h"; path = "JonaLabs/JonaLabs-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,21 +37,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E086BB9522635FB8E2FCC5 /* libPods-JonaLabs.a in Frameworks */,
+				4DC2DBBC14E374B9AE8B292E /* libPods-JonaLabs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		090E9D2A3C9DBBF19C12643C /* JonaLabs */ = {
-			isa = PBXGroup;
-			children = (
-				004B21BB50B0724CC3F99B59 /* ExpoModulesProvider.swift */,
-			);
-			name = JonaLabs;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* JonaLabs */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +53,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				08C766CEC484504D6A0602E0 /* PrivacyInfo.xcprivacy */,
+				04D9E693B56CD629B4F3FAB6 /* PrivacyInfo.xcprivacy */,
 			);
 			name = JonaLabs;
 			sourceTree = "<group>";
@@ -70,9 +62,17 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				4EDC90D45D5FD3678F2A6F37 /* libPods-JonaLabs.a */,
+				E26F476BAC1B66D7EFACAF40 /* libPods-JonaLabs.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7008F364DBDC66C07913B838 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				9D2C14345421AE2578A395B8 /* JonaLabs */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -89,8 +89,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				F7A615C26C11DD75E2AF757A /* Pods */,
-				A6934B1F41DCD910E58671A7 /* ExpoModulesProviders */,
+				9D4B4B1CACB139877D4EE4ED /* Pods */,
+				7008F364DBDC66C07913B838 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -105,12 +105,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6934B1F41DCD910E58671A7 /* ExpoModulesProviders */ = {
+		9D2C14345421AE2578A395B8 /* JonaLabs */ = {
 			isa = PBXGroup;
 			children = (
-				090E9D2A3C9DBBF19C12643C /* JonaLabs */,
+				3243A000C3A50C78325A04D4 /* ExpoModulesProvider.swift */,
 			);
-			name = ExpoModulesProviders;
+			name = JonaLabs;
+			sourceTree = "<group>";
+		};
+		9D4B4B1CACB139877D4EE4ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				278113584A41AEF1664AB420 /* Pods-JonaLabs.debug.xcconfig */,
+				6626CAB9C881B9B12447F37D /* Pods-JonaLabs.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -122,16 +132,6 @@
 			path = JonaLabs/Supporting;
 			sourceTree = "<group>";
 		};
-		F7A615C26C11DD75E2AF757A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1488015D35BBD6D87C3F6EC5 /* Pods-JonaLabs.debug.xcconfig */,
-				711E5A64DF9BC2D6DCDAC5EE /* Pods-JonaLabs.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "JonaLabs" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				20B2E61F0426FF67D51756FB /* [Expo] Configure project */,
+				9D949EB3DAC39960CFC8963D /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				D5A6C9F272135EF38D965DFC /* [CP] Embed Pods Frameworks */,
+				10AF146CECABDD838EAE1B34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				AB546230BFFD6E2B63CD8192 /* PrivacyInfo.xcprivacy in Resources */,
+				3E7FE2447E94A198C50A0976 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,24 +240,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		20B2E61F0426FF67D51756FB /* [Expo] Configure project */ = {
+		10AF146CECABDD838EAE1B34 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JonaLabs/Pods-JonaLabs-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
 			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-JonaLabs/expo-configure-project.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JonaLabs/Pods-JonaLabs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -279,6 +278,7 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher/EXDevLauncher.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu/EXDevMenu.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog_privacy.bundle",
+				"${PODS_ROOT}/../../node_modules/@react-native-vector-icons/material-design-icons/fonts/MaterialDesignIcons.ttf",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -295,29 +295,31 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/glog_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialDesignIcons.ttf",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JonaLabs/Pods-JonaLabs-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D5A6C9F272135EF38D965DFC /* [CP] Embed Pods Frameworks */ = {
+		9D949EB3DAC39960CFC8963D /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JonaLabs/Pods-JonaLabs-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JonaLabs/Pods-JonaLabs-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-JonaLabs/expo-configure-project.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -327,7 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				EA09A9BC7B39BF9623C3E191 /* ExpoModulesProvider.swift in Sources */,
+				8FDF3BC74C44DC764628AFE0 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +338,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1488015D35BBD6D87C3F6EC5 /* Pods-JonaLabs.debug.xcconfig */;
+			baseConfigurationReference = 278113584A41AEF1664AB420 /* Pods-JonaLabs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -361,7 +363,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anonymous.JonaLabs;
-				PRODUCT_NAME = "JonaLabs";
+				PRODUCT_NAME = JonaLabs;
 				SWIFT_OBJC_BRIDGING_HEADER = "JonaLabs/JonaLabs-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -372,7 +374,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 711E5A64DF9BC2D6DCDAC5EE /* Pods-JonaLabs.release.xcconfig */;
+			baseConfigurationReference = 6626CAB9C881B9B12447F37D /* Pods-JonaLabs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -392,7 +394,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anonymous.JonaLabs;
-				PRODUCT_NAME = "JonaLabs";
+				PRODUCT_NAME = JonaLabs;
 				SWIFT_OBJC_BRIDGING_HEADER = "JonaLabs/JonaLabs-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

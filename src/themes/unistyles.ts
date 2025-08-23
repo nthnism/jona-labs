@@ -1,10 +1,9 @@
 import { StyleSheet } from 'react-native-unistyles';
-import { materialLightTheme } from '@/src/themes/materialLightTheme';
-import { materialDarkTheme } from '@/src/themes/materialDarkTheme';
+import { MD3LightTheme, MD3DarkTheme } from 'react-native-paper';
 
 const appThemes = {
-  light: materialLightTheme,
-  dark: materialDarkTheme,
+  light: MD3LightTheme,
+  dark: MD3DarkTheme,
 };
 
 const breakpoints = {
