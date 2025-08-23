@@ -1,11 +1,10 @@
 import { Drawer } from 'expo-router/drawer';
 import '@/src/translations/i18n';
 import { useUnistyles } from 'react-native-unistyles';
-import { useTranslation } from '../../hooks/useTranslation';
+import { translate } from '@/src/functions/translate';
 
 export default function HomeLayout() {
   const { theme } = useUnistyles();
-  const translate = useTranslation();
 
   return (
     <Drawer

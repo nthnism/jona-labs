@@ -1,10 +1,9 @@
 import { Text, View } from 'react-native';
-import { useTranslation } from '@/src/hooks/useTranslation';
 import { useUnistyles } from 'react-native-unistyles';
+import { translate } from '@/src/functions/translate';
 
 export default function Index() {
   const { theme } = useUnistyles();
-  const translate = useTranslation();
 
   return (
     <View
