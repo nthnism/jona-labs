@@ -24,7 +24,7 @@
         <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:scheme="jonalabs"/>
+        <data android:scheme="jona-labs"/>
         <data android:scheme="exp+jonalabs"/>
       </intent-filter>
     </activity>

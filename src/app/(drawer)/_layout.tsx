@@ -3,7 +3,7 @@ import '@/src/translations/i18n';
 import { useUnistyles } from 'react-native-unistyles';
 import { useTranslation } from '../../hooks/useTranslation';
 
-export default function RootLayout() {
+export default function HomeLayout() {
   const { theme } = useUnistyles();
   const translate = useTranslation();
 

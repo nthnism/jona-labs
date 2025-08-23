@@ -27,7 +27,7 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>jonalabs</string>
+          <string>jona-labs</string>
           <string>com.anonymous.JonaLabs</string>
         </array>
       </dict>

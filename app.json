@@ -10,13 +10,18 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.JonaLabs"
+      "bundleIdentifier": "com.anonymous.JonaLabs",
+      "icon": {
+        "dark": "./assets/images/icon-ios-dark.png",
+        "light": "./assets/images/icon-ios.png"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FFFBFF"
       },
+      "icon": "./assets/images/icon-android.png",
       "edgeToEdgeEnabled": true,
       "package": "com.anonymous.JonaLabs"
     },
@@ -30,10 +35,13 @@
       [
         "expo-splash-screen",
         {
+          "backgroundColor": "#FFFBFF",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "dark": {
+            "image": "./assets/images/splash-icon-dark.png",
+            "backgroundColor": "#1D1B1E"
+          },
+          "imageWidth": 200
         }
       ],
       "expo-localization"
