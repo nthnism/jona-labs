@@ -1,4 +1,5 @@
 import { Drawer } from 'expo-router/drawer';
+import { Icon } from 'react-native-paper';
 import { useUnistyles } from 'react-native-unistyles';
 import { translate } from '@/src/functions/translate';
 
@@ -26,6 +27,9 @@ export default function HomeLayout() {
         options={{
           drawerLabel: translate('tabs.home.drawerLabel'),
           title: translate('tabs.home.title'),
+          drawerIcon: ({ focused, size }) => (
+            <Icon color={focused ? theme.colors.onPrimary : theme.colors.onBackground} size={size} source={'home'} />
+          ),
         }}
       />
       <Drawer.Screen
@@ -33,6 +37,9 @@ export default function HomeLayout() {
         options={{
           drawerLabel: translate('tabs.settings.drawerLabel'),
           title: translate('tabs.settings.title'),
+          drawerIcon: ({ focused, size }) => (
+            <Icon color={focused ? theme.colors.onPrimary : theme.colors.onBackground} size={size} source={'cog'} />
+          ),
         }}
       />
     </Drawer>

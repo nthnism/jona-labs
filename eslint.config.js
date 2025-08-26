@@ -3,8 +3,6 @@ const expoConfig = require('eslint-config-expo/flat');
 const eslintPluginPrettierRecommended = require('eslint-plugin-prettier/recommended');
 const unusedImports = require('eslint-plugin-unused-imports');
 
-// DISCLAIMER: This config has been modified with the help of ChatGPT.
-
 module.exports = defineConfig([
   expoConfig,
   eslintPluginPrettierRecommended,

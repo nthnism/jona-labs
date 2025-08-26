@@ -10,8 +10,6 @@ I created this as a showcase project to demonstrate my approaches to how I
 in a modern multiplatform application. It is my main playground for both app-wide features, and smaller
 self-contained functionality.
 
-`DISCLAIMER:` No AI was used to create code, unless explicitly mentioned otherwise!
-
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## How to run this

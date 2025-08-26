@@ -1,3 +1,4 @@
+import { Platform } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { PaperProvider } from 'react-native-paper';
@@ -20,6 +21,13 @@ export default function RootLayout() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <Provider store={store}>
         <PaperProvider theme={theme}>
+          {Platform.OS === 'web' ? (
+            <style type="text/css">{`
+              @font-face {
+                font-family: 'MaterialDesignIcons';
+                src: url(${require('@react-native-vector-icons/material-design-icons/fonts/MaterialDesignIcons.ttf')}) format('truetype');
+              }`}</style>
+          ) : null}
           <App />
         </PaperProvider>
       </Provider>

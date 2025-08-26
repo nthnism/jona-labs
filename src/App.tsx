@@ -5,12 +5,14 @@ import * as SplashScreen from 'expo-splash-screen';
 import { DynamicStatusBar } from '@/src/components/ui/DynamicStatusBar';
 import { useAppTheme } from '@/src/hooks/useAppTheme';
 import { useInitializeFonts } from '@/src/hooks/useInitializeFonts';
+import { useInitializeRedux } from '@/src/hooks/useInitializeRedux';
 
 export const App = () => {
   const hasLoadedFonts = useInitializeFonts();
   const hasLoadedTheme = useAppTheme();
+  const hasInitializedRedux = useInitializeRedux();
 
-  const isInitialized = hasLoadedFonts && hasLoadedTheme;
+  const isInitialized = hasLoadedFonts && hasLoadedTheme && hasInitializedRedux;
 
   useEffect(() => {
     if (isInitialized) {
