@@ -11,6 +11,18 @@
     "home": {
       "drawerLabel": "Home",
       "title": "Home"
+    },
+    "settings": {
+      "drawerLabel": "Settings",
+      "title": "Settings"
+    }
+  },
+  "settings": {
+    "theme": {
+      "card-title": "Select App Color Scheme",
+      "device": "Device",
+      "dark": "Dark",
+      "light": "Light"
     }
   }
 }

@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useState } from 'react';
-
 import { customFetch } from '@/src/functions/customFetch';
 
 export const useFetch = <TResponseType>(...args: Parameters<typeof customFetch>) => {

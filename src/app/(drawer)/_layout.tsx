@@ -1,6 +1,5 @@
 import { Drawer } from 'expo-router/drawer';
 import { useUnistyles } from 'react-native-unistyles';
-
 import { translate } from '@/src/functions/translate';
 
 import '@/src/translations/i18n';
@@ -27,6 +26,13 @@ export default function HomeLayout() {
         options={{
           drawerLabel: translate('tabs.home.drawerLabel'),
           title: translate('tabs.home.title'),
+        }}
+      />
+      <Drawer.Screen
+        name="settings"
+        options={{
+          drawerLabel: translate('tabs.settings.drawerLabel'),
+          title: translate('tabs.settings.title'),
         }}
       />
     </Drawer>

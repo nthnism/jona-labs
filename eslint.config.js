@@ -24,7 +24,7 @@ module.exports = defineConfig([
           ],
           pathGroupsExcludedImportTypes: ['react'],
           alphabetize: { order: 'asc', caseInsensitive: true },
-          'newlines-between': 'always',
+          'newlines-between': 'never',
         },
       ],
       'sort-imports': [

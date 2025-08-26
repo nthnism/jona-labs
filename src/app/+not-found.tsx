@@ -1,8 +1,6 @@
 import { Text } from 'react-native';
-
 import { Link } from 'expo-router';
 import { useUnistyles } from 'react-native-unistyles';
-
 import { SafeAreaScreen } from '@/src/components/screens/SafeAreaScreen';
 import { translate } from '@/src/functions/translate';
 

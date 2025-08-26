@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, View, ViewStyle } from 'react-native';
 import { Edge, SafeAreaView } from 'react-native-safe-area-context';
 import { useUnistyles } from 'react-native-unistyles';
 
@@ -28,11 +28,21 @@ export const SafeAreaScreen = ({
           flex: 1,
           backgroundColor: theme.colors.background,
           padding: theme.gap(1),
+          alignItems: 'center',
         },
-        centeredContent ? { justifyContent: 'center', alignItems: 'center', flex: 1 } : null,
-        style,
       ]}>
-      {children}
+      <View
+        style={[
+          {
+            minWidth: 500,
+            maxWidth: 500,
+            width: 500,
+          },
+          centeredContent ? { justifyContent: 'center', alignItems: 'center', flex: 1 } : null,
+          style,
+        ]}>
+        {children}
+      </View>
     </SafeAreaView>
   );
 };
