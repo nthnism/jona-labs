@@ -7,7 +7,7 @@
     "goBack": "Go back",
     "notFound": "Oops! Resource not found..."
   },
-  "tabs": {
+  "drawer": {
     "home": {
       "drawerLabel": "Home",
       "title": "Home"
@@ -19,10 +19,12 @@
   },
   "settings": {
     "theme": {
-      "card-title": "Select App Color Scheme",
+      "cardTitle": "Select Color Scheme",
       "device": "Device",
       "dark": "Dark",
-      "light": "Light"
+      "light": "Light",
+      "darkRed": "Dark Red",
+      "lightRed": "Red"
     }
   }
 }

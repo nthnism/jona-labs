@@ -1,8 +1,9 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
+import { UnistylesThemes } from 'react-native-unistyles';
 
-export type ThemeType = 'device' | 'dark' | 'light';
+export type ThemeType = 'device' | keyof UnistylesThemes;
 
 export interface SettingsState {
   theme: ThemeType;

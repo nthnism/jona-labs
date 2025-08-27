@@ -5,7 +5,7 @@ export const DynamicStatusBar = () => {
   const selectedTheme = useAppSelector((state) => state.settings.theme);
 
   const statusBarStyle: StatusBarStyle =
-    selectedTheme === 'device' ? 'auto' : selectedTheme === 'dark' ? 'light' : 'dark';
+    selectedTheme === 'device' ? 'auto' : selectedTheme.startsWith('dark') ? 'light' : 'dark';
 
   return <StatusBar style={statusBarStyle} />;
 };

@@ -1,14 +1,11 @@
-import { MD3DarkTheme, MD3LightTheme } from 'react-native-paper';
 import { StyleSheet } from 'react-native-unistyles';
-
-const gap = (n: number) => n * 8;
-
-const dark = { ...MD3DarkTheme, gap };
-const light = { ...MD3LightTheme, gap };
+import { dark, darkRed, light, lightRed } from '@/src/themes/themes';
 
 const appThemes = {
   dark: dark,
   light: light,
+  darkRed: darkRed,
+  lightRed: lightRed,
 };
 
 const breakpoints = {

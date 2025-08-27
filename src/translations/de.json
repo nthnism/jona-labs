@@ -7,10 +7,24 @@
     "goBack": "Zurück",
     "notFound": "Ups! Ressource nicht gefunden..."
   },
-  "tabs": {
+  "drawer": {
     "home": {
       "drawerLabel": "Startseite",
       "title": "Startseite"
+    },
+    "settings": {
+      "drawerLabel": "Einstellungen",
+      "title": "Einstellungen"
+    }
+  },
+  "settings": {
+    "theme": {
+      "cardTitle": "Farbschema wählen",
+      "device": "Geräteeinstellung",
+      "dark": "Dunkel",
+      "light": "Hell",
+      "darkRed": "Dunkelrot",
+      "lightRed": "Rot"
     }
   }
 }

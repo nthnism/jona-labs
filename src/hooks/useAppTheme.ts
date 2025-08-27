@@ -8,16 +8,26 @@ export const useAppTheme = () => {
   const [hasLoadedTheme, setHasLoadedTheme] = useState(false);
 
   useEffect(() => {
-    if (selectedTheme === 'device') {
-      UnistylesRuntime.setAdaptiveThemes(true);
-    }
-    if (selectedTheme === 'dark') {
-      UnistylesRuntime.setAdaptiveThemes(false);
-      UnistylesRuntime.setTheme('dark');
-    }
-    if (selectedTheme === 'light') {
-      UnistylesRuntime.setAdaptiveThemes(false);
-      UnistylesRuntime.setTheme('light');
+    switch (selectedTheme) {
+      case 'device':
+        UnistylesRuntime.setAdaptiveThemes(true);
+        break;
+      case 'dark':
+        UnistylesRuntime.setAdaptiveThemes(false);
+        UnistylesRuntime.setTheme('dark');
+        break;
+      case 'light':
+        UnistylesRuntime.setAdaptiveThemes(false);
+        UnistylesRuntime.setTheme('light');
+        break;
+      case 'darkRed':
+        UnistylesRuntime.setAdaptiveThemes(false);
+        UnistylesRuntime.setTheme('darkRed');
+        break;
+      case 'lightRed':
+        UnistylesRuntime.setAdaptiveThemes(false);
+        UnistylesRuntime.setTheme('lightRed');
+        break;
     }
     setHasLoadedTheme(true);
   }, [selectedTheme]);

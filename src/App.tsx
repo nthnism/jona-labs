@@ -15,9 +15,8 @@ export const App = () => {
   const isInitialized = hasLoadedFonts && hasLoadedTheme && hasInitializedRedux;
 
   useEffect(() => {
-    if (isInitialized) {
-      SplashScreen.hide();
-    }
+    if (!isInitialized) return;
+    SplashScreen.hide();
   }, [isInitialized]);
 
   if (!isInitialized) {

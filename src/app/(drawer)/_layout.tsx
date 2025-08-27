@@ -25,8 +25,8 @@ export default function HomeLayout() {
       <Drawer.Screen
         name="index"
         options={{
-          drawerLabel: translate('tabs.home.drawerLabel'),
-          title: translate('tabs.home.title'),
+          drawerLabel: translate('drawer.home.drawerLabel'),
+          title: translate('drawer.home.title'),
           drawerIcon: ({ focused, size }) => (
             <Icon color={focused ? theme.colors.onPrimary : theme.colors.onBackground} size={size} source={'home'} />
           ),
@@ -35,8 +35,8 @@ export default function HomeLayout() {
       <Drawer.Screen
         name="settings"
         options={{
-          drawerLabel: translate('tabs.settings.drawerLabel'),
-          title: translate('tabs.settings.title'),
+          drawerLabel: translate('drawer.settings.drawerLabel'),
+          title: translate('drawer.settings.title'),
           drawerIcon: ({ focused, size }) => (
             <Icon color={focused ? theme.colors.onPrimary : theme.colors.onBackground} size={size} source={'cog'} />
           ),
