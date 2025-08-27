@@ -7,18 +7,18 @@ interface SafeAreaScreenProps {
   children: React.ReactNode;
   style?: StyleProp<ViewStyle>;
   centeredContent?: boolean;
-  fullScreen?: boolean;
+  isFullScreen?: boolean;
 }
 
 export const SafeAreaScreen = ({
   children,
   style,
   centeredContent = false,
-  fullScreen = false,
+  isFullScreen = false,
 }: SafeAreaScreenProps) => {
   const { theme } = useUnistyles();
 
-  const edges: Edge[] = fullScreen ? ['top', 'right', 'bottom', 'left'] : ['right', 'bottom', 'left'];
+  const edges: Edge[] = isFullScreen ? ['top', 'right', 'bottom', 'left'] : ['right', 'bottom', 'left'];
 
   return (
     <SafeAreaView

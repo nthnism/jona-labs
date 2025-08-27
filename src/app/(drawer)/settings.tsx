@@ -1,11 +1,11 @@
 import React from 'react';
 import { ThemeSettingsCard } from '@/src/components/features/settings/ThemeSettingsCard';
-import { SafeAreaScreen } from '@/src/components/screens/SafeAreaScreen';
+import { ScrollableSafeAreScreen } from '@/src/components/screens/ScrollableSafeAreScreen';
 
 export default function Settings() {
   return (
-    <SafeAreaScreen>
+    <ScrollableSafeAreScreen>
       <ThemeSettingsCard />
-    </SafeAreaScreen>
+    </ScrollableSafeAreScreen>
   );
 }

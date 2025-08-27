@@ -36,16 +36,16 @@ export const ThemeSettingsCard = () => {
   return (
     <Card mode={'contained'}>
       <Card.Title
-        title={translate('settings.theme.cardTitle')}
+        title={translate('features.settings.theme.cardTitle')}
         left={(props) => <Avatar.Icon {...props} icon="theme-light-dark" />}
       />
       <Card.Content>
         <ThemeRadioButtonGroup onValueChange={(newValue) => dispatch(setTheme(newValue))} value={selectedTheme}>
-          <ThemeRadioButtonItem label={translate('settings.theme.device')} value="device" />
-          <ThemeRadioButtonItem label={translate('settings.theme.dark')} value="dark" />
-          <ThemeRadioButtonItem label={translate('settings.theme.light')} value="light" />
-          <ThemeRadioButtonItem label={translate('settings.theme.darkRed')} value="darkRed" />
-          <ThemeRadioButtonItem label={translate('settings.theme.lightRed')} value="lightRed" />
+          <ThemeRadioButtonItem label={translate('features.settings.theme.device')} value="device" />
+          <ThemeRadioButtonItem label={translate('features.settings.theme.dark')} value="dark" />
+          <ThemeRadioButtonItem label={translate('features.settings.theme.light')} value="light" />
+          <ThemeRadioButtonItem label={translate('features.settings.theme.darkRed')} value="darkRed" />
+          <ThemeRadioButtonItem label={translate('features.settings.theme.lightRed')} value="lightRed" />
         </ThemeRadioButtonGroup>
       </Card.Content>
     </Card>

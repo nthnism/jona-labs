@@ -8,7 +8,7 @@ export default function NotFoundScreen() {
   const { theme } = useUnistyles();
 
   return (
-    <SafeAreaScreen centeredContent fullScreen>
+    <SafeAreaScreen centeredContent isFullScreen>
       <Text
         style={{
           color: theme.colors.onBackground,

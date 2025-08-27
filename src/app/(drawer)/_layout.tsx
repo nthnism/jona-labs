@@ -33,6 +33,16 @@ export default function HomeLayout() {
         }}
       />
       <Drawer.Screen
+        name="tedLasso"
+        options={{
+          drawerLabel: translate('drawer.tedLasso.drawerLabel'),
+          title: translate('drawer.tedLasso.title'),
+          drawerIcon: ({ focused, size }) => (
+            <Icon color={focused ? theme.colors.onPrimary : theme.colors.onBackground} size={size} source={'soccer'} />
+          ),
+        }}
+      />
+      <Drawer.Screen
         name="settings"
         options={{
           drawerLabel: translate('drawer.settings.drawerLabel'),

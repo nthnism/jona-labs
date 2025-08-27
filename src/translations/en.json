@@ -12,19 +12,29 @@
       "drawerLabel": "Home",
       "title": "Home"
     },
+    "tedLasso": {
+      "drawerLabel": "Ted Lasso Coach",
+      "title": "Ted Lasso Coach"
+    },
     "settings": {
       "drawerLabel": "Settings",
       "title": "Settings"
     }
   },
-  "settings": {
-    "theme": {
-      "cardTitle": "Select Color Scheme",
-      "device": "Device",
-      "dark": "Dark",
-      "light": "Light",
-      "darkRed": "Dark Red",
-      "lightRed": "Red"
+
+  "features": {
+    "tedLasso": {
+      "featureDescription": "This is a feature I was asked to build as a coding example for a job interview. The task was defined as follows:\n\nGoal:\nCreate a fan app for the TV show “Ted Lasso” using React Native and the TVMaze API. This challenge is intended to assess your skills as a Senior React Native Developer. Feel free to use any libraries or tools that enhance your productivity and showcase your proficiency.\n\nScope:\nFetch and Display Show Data:\nRetrieve and display data for “Ted Lasso,” including the list of episodes.\n\nEpisode Details:\nAllow users to navigate into a single episode and view its details.\n\nFavorites Feature:\nEnable users to mark episodes as favorites.\nPersist favorite selections locally (not just in memory)."
+    },
+    "settings": {
+      "theme": {
+        "cardTitle": "Select Color Scheme",
+        "device": "Device",
+        "dark": "Dark",
+        "light": "Light",
+        "darkRed": "Dark Red",
+        "lightRed": "Red"
+      }
     }
   }
 }
