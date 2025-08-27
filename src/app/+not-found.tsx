@@ -17,7 +17,7 @@ export default function NotFoundScreen() {
         {translate('global.notFound')}
       </Text>
       <Link dismissTo href="/" style={{ textDecorationLine: 'underline', color: theme.colors.onBackground }}>
-        {translate('global.goBack')}
+        {translate('global.back')}
       </Link>
     </SafeAreaScreen>
   );

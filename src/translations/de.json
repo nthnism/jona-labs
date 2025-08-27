@@ -4,7 +4,7 @@
     "ok": "Ok",
     "cancel": "Abbrechen",
     "continue": "Weiter",
-    "goBack": "Zurück",
+    "back": "Zurück",
     "notFound": "Ups! Ressource nicht gefunden..."
   },
   "drawer": {

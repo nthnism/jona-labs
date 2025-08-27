@@ -8,6 +8,7 @@ export default function TedLassoLayout() {
         headerShown: false,
       }}>
       <Stack.Screen name="index" />
+      <Stack.Screen name="overview" />
     </Stack>
   );
 }

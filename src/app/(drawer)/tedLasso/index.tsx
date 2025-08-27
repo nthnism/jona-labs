@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <FeatureIntroductionScreen
       description={translate('features.tedLasso.featureDescription')}
-      continueTo={() => router.navigate('/')}
+      continueTo={() => router.push('/(drawer)/tedLasso/overview')}
     />
   );
 }
